@@ -29,6 +29,7 @@ want to highlight some `code`? surround it with "`"
 strikethrough ~text~ using "~"  
 
 ### Additional tips:
+- for GitHub to interpret a text file in Markdown, give it the extension '.md'
 - make good use of the 'Preview' feature at the top of your editing window in GitHub
 - you might have to add 2 spaces at the end of each line of a paragraph to avoid having them all on the same line  
 - AFAIK you cannot underline in the Markdown used here on github    
