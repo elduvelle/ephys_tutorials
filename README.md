@@ -9,7 +9,7 @@ Will attempt to store here useful tutorials and other documents related to elect
     - let me know if you'd like to update it with parameters of your choice!
 2. Collaborative hyperdrive parameters list ([google spreadsheet](https://docs.google.com/spreadsheets/d/1_RQzEL3dPUSTLOz9AyFzJbuIaXmG7jZLt3z06Fllemc/edit#gid=0))
     - feel free to contribute by adding a row!
-3. Short tutorial on using Markdown to format readme (.md) files on GitHub: [page](https://github.com/elduvelle/ephys_tutorials/blob/main/markdown_tutorial.md)
+3. Short tutorial on using Markdown to format readme (.md) files on GitHub: [page](https://github.com/elduvelle/ephys_tutorials/blob/main/3_markdown_tutorial.md)
 
 
 
