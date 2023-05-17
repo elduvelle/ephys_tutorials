@@ -1,4 +1,4 @@
-### (Probably) the best lesion parameters, from Anna Gillespie (thank you for sharing!)
+### 1. (Probably) the best lesion parameters, from Anna Gillespie (thank you for sharing!)
 _note: I haven't personally tested these yet_
 
 - Lesions are performed 24h before perfusion (under isoflurane anaesthesia)
@@ -13,3 +13,25 @@ This is how it _should_ look like:
 Source:
 [Gillespie et al., 2021](https://www.sciencedirect.com/science/article/pii/S0896627321005730?via%3Dihub)  
 lesions method actually described in: [Sosa et al., 2020](https://www.sciencedirect.com/science/article/pii/S0896627319310086)
+
+
+### 2. alternative device to make lesions
+![IMG_8043](https://github.com/elduvelle/ephys_tutorials/assets/64431932/ee670de0-ceee-4267-9ca9-799696cbb506)
+method:
+
+|parameter |value   |
+|----------|--------|
+|power:    |on      |
+|audio:    |on      |
+|mode:     |unipolar|
+|DC/test:  |on      |
+|range:    |100uA|
+|% range:  |e.g. 30 (for 30 uA)|
+|Polarity select:| have right light on|
+|Output:   |on|
+
+Red output = contacting channel to lesion
+Black output = connected to drive ground (or, alternatively, rat skin with a wet tissue)
+
+
+
