@@ -27,7 +27,7 @@ method:
 |DC/test:  |on      |
 |range:    |100uA|
 |% range:  |e.g. 30 (for 30 uA)|
-|Polarity select:| have right light on|
+|Polarity select:| red light on black/ground for negative current|
 |Output:   |on|
 
 Red output = contacting channel to lesion
