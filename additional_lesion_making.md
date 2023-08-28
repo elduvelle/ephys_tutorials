@@ -1,5 +1,4 @@
 ### 1. (Probably) the best lesion parameters, from Anna Gillespie (thank you for sharing!)
-_note: I haven't personally tested these yet_
 
 - Lesions are performed 24h before perfusion (under isoflurane anaesthesia)
 - Lesion parameters: 30 μA of positive current for 3 s, on 2-4 channels per tetrode
@@ -13,6 +12,10 @@ This is how it _should_ look like:
 Source:
 [Gillespie et al., 2021](https://www.sciencedirect.com/science/article/pii/S0896627321005730?via%3Dihub)  
 lesions method actually described in: [Sosa et al., 2020](https://www.sciencedirect.com/science/article/pii/S0896627319310086)
+
+This is how it looks like when I do it (tried 2s of stimulation for some tetrodes, but couldn't see those lesions at all, so definitely use 3s):
+![IMG_9980](https://github.com/elduvelle/ephys_tutorials/assets/64431932/9bb1da25-2d38-4564-bc50-1f83e5c837fd)
+![IMG_9981](https://github.com/elduvelle/ephys_tutorials/assets/64431932/eb7e6057-3491-4556-a5d9-dbd6b39ebfab)
 
 
 ### 2. alternative device to make lesions
@@ -31,7 +34,7 @@ method:
 |Output:   |on|
 
 Red output = contacting channel to lesion
-Black output = connected to drive ground (or, alternatively, rat skin with a wet tissue)
+Black output = connected to drive ground, grounded part of cone, or, alternatively, rat skin via a saline-imbibed tissue
 
 
 
