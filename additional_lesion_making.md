@@ -20,6 +20,8 @@ This is how it looks like when I do it (tried 2s of stimulation for some tetrode
 
 ### 2. alternative device to make lesions
 ![IMG_8043](https://github.com/elduvelle/ephys_tutorials/assets/64431932/ee670de0-ceee-4267-9ca9-799696cbb506)
+**Warning: the red light should be on the right, unlike in the photo!**  
+
 method:
 
 |parameter |value   |
@@ -27,13 +29,13 @@ method:
 |power:    |on      |
 |audio:    |on      |
 |mode:     |unipolar|
-|DC/test:  |on      |
+|DC/test:  |hold ON position during the lesion     |
 |range:    |100uA|
 |% range:  |e.g. 30 (for 30 uA)|
 |Polarity select:| red light on right/red for positive current|
 |Output:   |on|
 
-Red output = contacting channel to lesion
+Red output = contacting channel to lesion  
 Black output = connected to drive ground, grounded part of cone, or, alternatively, rat skin via a saline-imbibed tissue
 
 
