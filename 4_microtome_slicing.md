@@ -93,5 +93,5 @@ Outline:
 - Cover the microtome to avoid dust (*The Enemy [TM]*)
 
 #### 5. Additional comments
-- Many thanks to Erika, Elisabeth, Jeff, Stuti for their help!
+- Many thanks to Erica, Elisabeth, Jeff, Stuti for their help!
 - Feel free to leave an issue on this repo or message me on Mastodon for comments or questions
