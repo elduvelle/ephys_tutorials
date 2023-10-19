@@ -1,10 +1,10 @@
 ## HOW-TO: Microtome slicing
 Outline: 
-1. [Material Needed](https://github.com/elduvelle/ephys_tutorials/new/main#1-material-needed)
-2. [Preparation](https://github.com/elduvelle/ephys_tutorials/new/main#2-preparation)
-3. [Slicing](https://github.com/elduvelle/ephys_tutorials/new/main#3-slicing)
-4. [Clean-up](https://github.com/elduvelle/ephys_tutorials/new/main#4-clean-up)
-5. [Additional Comments](https://github.com/elduvelle/ephys_tutorials/new/main#5-additional-comments)
+1. [Material Needed](https://github.com/elduvelle/ephys_tutorials/blob/main/microtome_slicing.md#1-material-needed)
+2. [Preparation](https://github.com/elduvelle/ephys_tutorials/blob/main/microtome_slicing.md#2-preparation)
+3. [Slicing](https://github.com/elduvelle/ephys_tutorials/blob/main/microtome_slicing.md#3-slicing)
+4. [Clean-up](https://github.com/elduvelle/ephys_tutorials/blob/main/microtome_slicing.md#4-clean-up)
+5. [Additional Comments](https://github.com/elduvelle/ephys_tutorials/blob/main/microtome_slicing.md#5-additional-comments)
 
 #### 1. Material needed
 - 1 Frozen brain (-80°C) that was in 20% or 30 % sucrose in PB(S) solution, kept in foil
@@ -16,8 +16,8 @@ Outline:
 - some PB(S) solution
 - OCT / mounting medium
 
-*Figure 1: The Microtome*
-![microtome](https://github.com/elduvelle/ephys_tutorials/assets/64431932/afcb7045-6dbe-4e61-a4fc-27948ab5ce17)
+*Figure 1: The Microtome*  
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/afcb7045-6dbe-4e61-a4fc-27948ab5ce17" width="400" />  
 
 #### 2. Preparation
 - brain preparation: transfer the brain from the -80°C Freezer to a warmer freezer (-20°C)
@@ -31,7 +31,7 @@ Outline:
   *TIP: From now on, regularly replenish the dry ice to keep the base cold.*
 
   *Figure 2: base packed with dry ice*
-![dry_ice](https://github.com/elduvelle/ephys_tutorials/assets/64431932/91ea9a7a-477d-42e0-bd6b-6aac5e60b0b9)
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/91ea9a7a-477d-42e0-bd6b-6aac5e60b0b9" width="400" />  
 
 - brain installation:
   - with a scalpel or razor blade, cut the cerebellum to make a flat surface that will support the brain.
@@ -42,11 +42,11 @@ Outline:
   - If the tip doesn't cool down fast enough, spray a bit of freezing spray.
   - Ensure that your brain will stick to the base by adding some more OCT at the bottom.
 
-*Figure 3: brain freshly positioned*
-![brain_on_base](https://github.com/elduvelle/ephys_tutorials/assets/64431932/0633bcad-4d81-4a5b-923d-b16326a75d4c)
+*Figure 3: brain freshly positioned*  
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/0633bcad-4d81-4a5b-923d-b16326a75d4c" width="400" />  
 
 *Figure 4: adding more OCT*  
-![brain_with_medium](https://github.com/elduvelle/ephys_tutorials/assets/64431932/a1cd0a33-4e67-4c5d-bf94-91479786e05a)
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/a1cd0a33-4e67-4c5d-bf94-91479786e05a" width="400" />  
 
 - blade installation:
   - take blade out of box, clean it with 70% Ethanol, dry it
@@ -76,9 +76,10 @@ Outline:
 
 
 *Figures 5-7: Different slicing steps, note, this brain had a bit too much OCT:*
-![brain_bef_slicing](https://github.com/elduvelle/ephys_tutorials/assets/64431932/651fe429-fd2f-4370-a522-31a1d9e1f71a)
-![brain_started_slicing](https://github.com/elduvelle/ephys_tutorials/assets/64431932/b039e3a9-1603-438f-9d80-51d95937d61c)
-![brain_end_slicing](https://github.com/elduvelle/ephys_tutorials/assets/64431932/2ad5e590-962a-440b-be55-30ca526a66c5)
+
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/651fe429-fd2f-4370-a522-31a1d9e1f71a" width="400" />  
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/b039e3a9-1603-438f-9d80-51d95937d61c" width="400" />  
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/2ad5e590-962a-440b-be55-30ca526a66c5" width="400" />  
 
 #### 4. Clean-up
 
@@ -89,8 +90,8 @@ Outline:
 - Remove the brain, discard it in the freezer bin with the other discarded slices
 - Spray the base with 70% EtOH to get rid of the remaining dry ice, dry it
 - Clean up everything else that you used.
-- Cover the microtome to avoid dust (The Enemy [TM])
+- Cover the microtome to avoid dust (*The Enemy [TM]*)
 
 #### 5. Additional comments
 - Many thanks to Erika, Elisabeth, Jeff, Stuti for their help!
-- Feel free to leave an issue or message me on Mastodon for comments or questions
+- Feel free to leave an issue on this repo or message me on Mastodon for comments or questions
