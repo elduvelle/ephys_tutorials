@@ -19,8 +19,8 @@ This is how it looks like when I do it on 13 um Nichrome wire (20 uA instead of 
 
 
 ### 2. alternative device to make lesions
-![IMG_8043](https://github.com/elduvelle/ephys_tutorials/assets/64431932/ee670de0-ceee-4267-9ca9-799696cbb506)
-**Warning: the red light should be on the right, unlike in the photo!**  
+
+![lesion-maker](https://github.com/elduvelle/ephys_tutorials/assets/64431932/035f828b-4bcb-44f7-84ca-6cef336667d8)
 
 method:
 
@@ -29,7 +29,6 @@ method:
 |power:    |on      |
 |audio:    |on      |
 |mode:     |unipolar|
-|DC/test:  |hold ON position during the lesion     |
 |range:    |100uA|
 |% range:  |e.g. 30 (for 30 uA)|
 |Polarity select:| red light on right/red for positive current|
@@ -37,6 +36,9 @@ method:
 
 Red output = contacting channel to lesion  
 Black output = connected to drive ground, grounded part of cone, or, alternatively, rat skin via a saline-imbibed tissue
+
+Hold DC/test up (ON) to make the lesion, once the circuit is ready. Release before moving on to the next channel.  
+*TIP: Low-pitch sound indicates good connection, high-pitch sound indicates a disconnected circuit.*
 
 
 
