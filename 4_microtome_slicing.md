@@ -50,8 +50,9 @@ Outline:
 
 - blade installation:
   - take blade out of box, clean it with 70% Ethanol, dry it
-  - place it in the blade slot of the microtome, making the end flush on the right side, lock it in with the two screws
+  - place it in the blade slot of the microtome, making it flush with the lower right corner and the bottom (see Fig 5), lock it in with the two screws
 **TIP & Warning: Make sure to slide the blade protection ON whenever you're not using the blade!**
+<img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/93124b4d-8806-4e85-94b4-17326226a3a8" width="400" />  
 
 - Remember to regularly add dry ice if needed from now on.
 
