@@ -1,10 +1,10 @@
 ## HOW-TO: Nissl staining
 Outline:
-1. [Material Needed]
-2. [Preparation]
-3. [Staining]
-4. [Clean-up]
-5. [Additional Comments]
+1. [Material Needed](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md#1-material-needed)
+2. [Preparation](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md#2-preparation)
+3. [Staining](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md#3-staining)
+4. [Clean-up](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md#4-clean-up)
+5. [Additional Comments](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md#5-additional-comments)
 
 **NOTE: This is called the 'fast Cresyl Violet staining'. It is fast, but might not be as pretty as other methods.
 
@@ -38,7 +38,7 @@ Outline:
 - *(optional)* Filter the Cresyl Violet solution before use
 - Fill the wells with the appropriate solutions and arrange them in order. The two histoclear wells should be under a hood.
 
-*Figure 1&2: staining wells*
+*Figure 1&2: staining wells*  
 ![staining_wells](https://github.com/elduvelle/ephys_tutorials/assets/64431932/68e1a5a5-7491-4f95-be3e-e78f5547a662)
 ![Histoclear_wells](https://github.com/elduvelle/ephys_tutorials/assets/64431932/a3489bdb-64a2-4709-9d4a-9953e3b8cde2)
 
