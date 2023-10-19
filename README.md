@@ -11,7 +11,8 @@ Will attempt to store here useful tutorials and other documents related to elect
     - let me know if you'd like to update it with parameters of your choice!
     - a better method especially for smaller wire, this can mark the tetrode tracks as well (e.g. 12.7 Nichrome): [better lesion method](https://github.com/elduvelle/ephys_tutorials/blob/main/3_better_lesion_making_tutorial.md)
 3. HOW-TO: slice a frozen brain with a microtome: [microtome_slicing](https://github.com/elduvelle/ephys_tutorials/blob/main/4_microtome_slicing.md)
-4. Collaborative hyperdrive parameters list ([google spreadsheet](https://docs.google.com/spreadsheets/d/1_RQzEL3dPUSTLOz9AyFzJbuIaXmG7jZLt3z06Fllemc/edit#gid=0))
+4. HOW-TO: stain mounted slices with Nissl staining (Cresyl Violet): [nissl_staining](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md)
+5. Collaborative hyperdrive parameters list ([google spreadsheet](https://docs.google.com/spreadsheets/d/1_RQzEL3dPUSTLOz9AyFzJbuIaXmG7jZLt3z06Fllemc/edit#gid=0))
     - feel free to contribute by adding a row!
 
 
