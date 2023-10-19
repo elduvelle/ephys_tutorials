@@ -60,6 +60,7 @@ Outline:
 *TIP: Leave longer in Cresyl if not staining enough*  
 *TIP: change the first dH2O solution regularly, possibly after each batch*  
 *TIP: Leave longer in 100% EtOH if overstaining*
+*TIP: if your slices are detaching / curling from the slide, it probably mean the slice does not stick well enough to the slide, try to get positively charged slices ("Superfrost plus") or gelatinized slides*
 
 - Glue coverslips using DPX:
   - take 1 slide out of the Histoclear 2
