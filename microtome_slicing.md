@@ -30,7 +30,7 @@ Outline:
   
   *TIP: From now on, regularly replenish the dry ice to keep the base cold.*
 
-  *Figure 2: base packed with dry ice*
+*Figure 2: base packed with dry ice*  
 <img src="https://github.com/elduvelle/ephys_tutorials/assets/64431932/91ea9a7a-477d-42e0-bd6b-6aac5e60b0b9" width="400" />  
 
 - brain installation:
@@ -59,9 +59,9 @@ Outline:
 
 - Start of slicing:
   - ensure that the blade goes above the brain when pulling it towards you.
-  - either by doing mock slicing movements (if needed, you can increase the slicing width by pulling the blade several times past the click then back before pulling all the way), and/or by raising the base, get the brain to be just below the blade level.
+  - either by doing mock slicing movements (if needed, you can increase the slicing height by pulling the blade several times past the click then back before pulling all the way), and/or by raising the base, get the brain to be just below the blade level.
   
-*TIP: Do not do too many 'width increases' at the same time. 4-6 max recommended before you pull all the way.*
+*TIP: Do not do too many 'height increases' at the same time. 4-6 max recommended before you pull all the way.*
 
   - start slicing. At this stage slices should probably be discarded: collect each slice individually from the blade and leave it either on a discarding filter on in a PB(S) well. I prefer the filter.
   - if needed, put a little bit of PB(S) on the top of the blade to help slices stay there.
