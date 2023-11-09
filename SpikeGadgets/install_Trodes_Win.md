@@ -1,4 +1,4 @@
-## This describes the procedure to install SpikeGadgets software on WINDOWS
+## This describes the procedure to install SpikeGadgets software on WINDOWS specific to our lab
 
 ### Useful links:
 [general SpikeGadgets documentation](https://spikegadgets.com/documentation/)  
@@ -43,14 +43,14 @@
   
  9. If using Filezilla to backup data  
   9.1. Downlowad [Filezilla](https://filezilla-project.org/) -> 'download filezilla client'  
-  9.2. Connect to the lab's server (see instructions on slack #server channel) (129.170.31.30) & create a bookmark to connect your local data folder to one on the server (likely datavault/incoming/Eleonore/xx) 
+  9.2. Connect to the lab's server (see instructions on slack #server channel) & create a bookmark to connect your local data folder to one on the server
 
 
 
   
 
 10. Double-click on Trodes.exe to run.  
-  10.1. (optional) Download any .rec file from the server, or [this one from Caitlin Mallory](https://drive.google.com/drive/folders/1GAXyatSaNS1Oqz2usOC8Mgca12NnRhnC?ths=true), to see if it works ('Playback' option in Trodes)  
+  10.1. (optional) Download any .rec file from the server to see if it works ('Playback' option in Trodes)  
   10.2. Ideally, reuse a previously-created config file (workspace), see for example in the server, Eleonore/Screening Documents   
   10.3. See other protocols (Trodes tethered recording / Trodes untethered recordings) to do a recording! [TODO]
 
