@@ -1,4 +1,5 @@
 ## Ephys untethered recording with Trodes (SpikeGadgets)
+### Last updated with Trodes 2.4.0
 
 ### Hardware needed:
 
