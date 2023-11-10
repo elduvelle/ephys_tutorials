@@ -14,8 +14,9 @@ Will attempt to store here useful tutorials and other documents related to elect
 4. HOW-TO: stain mounted slices with Nissl staining (Cresyl Violet): [nissl_staining](https://github.com/elduvelle/ephys_tutorials/blob/main/5_nissl_staining.md)
 5. Collaborative hyperdrive parameters list ([google spreadsheet](https://docs.google.com/spreadsheets/d/1_RQzEL3dPUSTLOz9AyFzJbuIaXmG7jZLt3z06Fllemc/edit#gid=0))
     - feel free to contribute by adding a row!
+6. How to do a successful untethered recoring with SpikeGadgets (128ch headstage): [tutorial](https://github.com/elduvelle/ephys_tutorials/blob/main/SpikeGadgets/record_Trodes_untethered.md)
 
 
 -----------------
-Feel free to use & share and add comments as issues here or on Mastodon at https://neuromatch.social/@elduvelle 
+Feel free to use & share and add comments as issues here or on Mastodon at https://neuromatch.social/@elduvelle_neuro 
 
