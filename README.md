@@ -16,7 +16,7 @@ Will attempt to store here useful tutorials and other documents related to elect
     - feel free to contribute by adding a row!
 6. How to do a successful untethered recoring with SpikeGadgets (128ch headstage): [tutorial](https://github.com/elduvelle/ephys_tutorials/blob/main/SpikeGadgets/record_Trodes_untethered.md)
 7. Drive-building tutorial for Axona, rat, single-bundle drives ('poor-lady'). Credits mostly to Roddy Grieves: [tutorial](https://github.com/elduvelle/ephys_tutorials/blob/main/7_Axona_bundle_drive-building_tutorial.pdf)
-8. Tetrode-making tutorial (tape method): [tetrode tutorial](https://github.com/elduvelle/ephys_tutorials/blob/main/8_tetrode-making_tutorial)
+8. Tetrode-making tutorial (tape method): [tetrode tutorial](https://github.com/elduvelle/ephys_tutorials/blob/main/8_tetrode-making_tutorial.pdf)
 
 -----------------
 Feel free to use & share and add comments as issues here or on Mastodon at https://neuromatch.social/@elduvelle_neuro 
