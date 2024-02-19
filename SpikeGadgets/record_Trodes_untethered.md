@@ -1,5 +1,7 @@
 ## Ephys untethered recording with Trodes (SpikeGadgets)
-### Last updated with Trodes 2.4.0
+### tested with:
+- Trodes 2.4.0
+- Trodes 2.4.2
 
 ### Hardware needed:
 
@@ -22,22 +24,22 @@
 ![image](https://github.com/vandermeerlab/mvdmlab-protocols/assets/64431932/73225c73-5c20-4235-a487-43a0db1d11f8)
   
 - Ensure that the Headstage has the desired options set on (e.g. accelerometer)
-- Save the workspace ('merging workspace')  
+- Save the workspace (`merging workspace`)  
     -> this merging workspace will be used after the untethered recording has been done to merge it with the ephys channels.
 
-    1.2.2. Logging workspace should have zero channels, but links to the video, MCU, and other data streams that we want to connect during the recording e.g. ECU, accelerometer, etc. Make it and save it.
+    1.2.2. Logging workspace should have zero channels, but links to the video, MCU, and other data streams that we want to connect during the recording e.g. ECU, accelerometer, etc. Make it and save it as `logging workspace`.
 - create or open the workspace
 - **set channel count to 0**
 - add relevant data streams (e.g. for ECU select it from the Hardware Devices menu > +Add Device)  
-- Make sure that 'ZMQ socket' is enabled!!  
-- save the workspace ('data logging workspace')
-- reopen it in Trodes and set the MCU to the desired options (connect via USB for this): Session ID mode on, correct RF channel
+- **Make sure that 'ZMQ socket' is enabled!!**  
+- save the workspace (`logging workspace`)
+- reopen it in Trodes and set the MCU to the desired options (connect via USB for this): Session ID mode on, correct RF channel, then save again
 
 #### 2. To do every time before a recording  
   2.1. ensure that battery is charged (use Logger Dock to charge it)  
   2.2. connect MCU to computer (usb or ethernet), connect the RF transceiver (Aux 1 port), switch it on   
   2.3. enable SD card for recording: either insert in MCU and press the 0_0 button until it goes back to green, or use the LoggerDock 'enable for recording' option  
-  2.4. Start Trodes, with the 'data logging workspace', connect it to MCU  
+  2.4. Start Trodes with the `logging workspace`, connect it to MCU  
   2.5. (optional) Ensure that ECU is connected to MCU via HDMI, start it & connect to it in Trodes  
   2.6. Connect the battery (and optionally LEDs) to the untethered headstage, insert the enabled SD card.  
 ![image](https://github.com/vandermeerlab/mvdmlab-protocols/assets/64431932/bcc2813c-4a87-436d-8922-67ef03f5f07a)
@@ -46,7 +48,7 @@
   3.1. If using tracking: click on Video, load or create the appropriate geometry, start tracking  
   3.2. Connect the headstage to the rat, make sure the SD card is in, switch the headstage on: the tracking LED (if connected) should switch on, the headstage LED indicators should both blink twice (orange & red) indicating power to the headstage, then the orange one should slow blink ('breathing') indicating that the SD card is enabled. Mine alternates this and 4 fast orange blinks which are supposed to indicate start of recording...  
   3.3. Select Stream from source: the headstage will start recording: it will do 4 orange blinks and then stop the 'breathing' pattern.  
-  3.4. Select 'New recording...' then choose a filename, let's say 'Recording_file'; the MCU will start recording. The Headstage should now xxx  (blink? do nothing?)  
+  3.4. Select 'New recording...' then choose a filename, let's say `Recording_file`; the MCU will start recording. The Headstage should now xxx  (blink? do nothing? unclear)  
   -> check why the 'RF sync' channel doesn't show anything
   -> check why the hs doesn't make any light
 
@@ -66,15 +68,20 @@ you now have two recording files: the 'neural recording' on the SD card and the 
 
   5.3. Common to both  
     5.3.1. Ensure that 'Merge logger data with environmental data' check box is ticked  
-    5.3.2. Select the environmental recording file (might be already populated if opened from Trodes) - in our case, 'Recording_file'
-    5.3.3. Select the right neural recording file (from the SD card) - 'merging_workspace'
-    5.3.4. Ensure that the merged filename is correct and click START  (Note: if a problem occurs, try replacing the SD card in the reader)
+    5.3.2. Select the environmental recording file (might be already populated if opened from Trodes) - in our case, 'Recording_file'  
+    5.3.3. Select the right neural recording file (from the SD card) - 'merging_workspace'  
+    5.3.4. Ensure that the merged filename is correct and click START  (Note: if a problem occurs, try replacing the SD card in the reader)  
 The new 'merged' file is the one that needs to be used in future processing steps, but note that some of the files (e.g. position data) will not have the 'merged' suffix.  
 For error messages at this stage, see [DataLoggerGui doc](https://docs.spikegadgets.com/en/latest/basic/DataLoggerGUI.html)  
 
 #### 6. Final operations
   6.1. Potentially charge the battery using the logger dock, for next time  
-  6.2. Potentially re-enable the SD card
+  6.2. Potentially re-enable the SD card  
+  6.3. To check the merged recording:  
+      6.3.1. Open Trodes  
+      6.3.2. Playback File: find and open your merged file  
+      6.3.3. (optional) Video > find and open your video file  
+      6.3.4. Press Play to see your recording!  
 
 ### Additional notes
 
