@@ -2,6 +2,16 @@
 
 - Lesions are performed 24h before perfusion (under isoflurane anaesthesia)
 - Lesion parameters: 30 μA of positive current for 3s, on 2-4 channels per tetrode
+  - Get a schematic of your drive's connectivity to know which channels are part of the same tetrode
+  - Anaesthetize the rat
+  - Set the stimulation to the desired current (e.g. 30 μA, positive), ideally test it with an high resolution Ammeter 
+  - connect the (-) of the stimulation system (black) to the ground pin of the drive, or the rat's paw (via saline-wet tissue), this will stay there during the entire process
+  - for each channel to lesion:
+    - connect the (+) of the stimulation system (red) to the drive channel to lesion
+    - activate the system for the desired time (e.g. 3s)
+    - stop the stimulation, connect the wire to the next channel
+    - proceed until all desired channels have been lesioned
+  - wake the rat up, ensure appropriate post-op procedures e.g. heating blanket, put the rat back in their homecage
 - after 24h, proceed with perfusion (PBS followed by 4% paraformaldehyde in 0.1M PB)
 - leave the entire skull in PFA for 24h with the tetrodes still inside the brain
 - after additional 24h, pull tetrodes up and remove brain
