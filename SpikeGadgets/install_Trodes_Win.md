@@ -1,4 +1,4 @@
-## This describes the procedure to install SpikeGadgets software on WINDOWS specific to our lab
+## This describes the procedure to install SpikeGadgets software on WINDOWS specific to the van der Meer lab
 
 ### Useful links:
 [general SpikeGadgets documentation](https://spikegadgets.com/documentation/)  
@@ -46,14 +46,10 @@
   9.2. Connect to the lab's server (see instructions on slack #server channel) & create a bookmark to connect your local data folder to one on the server
 
 
-
-  
-
 10. Double-click on Trodes.exe to run.  
   10.1. (optional) Download any .rec file from the server to see if it works ('Playback' option in Trodes)  
   10.2. Ideally, reuse a previously-created config file (workspace), see for example in the server, Eleonore/Screening Documents   
   10.3. See other protocols (Trodes tethered recording / Trodes untethered recordings) to do a recording! [TODO]
-
 
 
 ----
