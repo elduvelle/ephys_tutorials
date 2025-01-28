@@ -1,7 +1,7 @@
 2022-07-12
 
 Jadhav lab - from John Bladon, many thanks to him & for agreeing to share!  
-Slightly modified by El Duvelle
+Slightly modified by El Duvelle  
 Questions, comments? Post an [issue](https://github.com/elduvelle/ephys_tutorials/issues) or contact El at https://neuromatch.social/@elduvelle
 
 ------------
@@ -47,8 +47,8 @@ Questions, comments? Post an [issue](https://github.com/elduvelle/ephys_tutorial
 Note: Brad Pfeiffer says that he sometimes does this for about a week until the impedances remain at low values!
 
 ## Troubleshooting:
-- wires that are around 500 kOhms may have “bubbles” on them and you can try to lift the drive out of the solution and replace them.  You can also try to “burn off” / clean that wire at +1 µA again, but it will return to low (or is it high?) impedance rapidly so be patient the second time around.
-- If the wire is above 10, it is out, check at the EIB pin.
+- wires that are around 500 kOhms may have “bubbles” on them and you can try to lift the drive out of the solution and place them back.  You can also try to “burn off” / clean that wire at +1 µA again, but it will return to low (or is it high?) impedance rapidly so be patient the second time around.
+- If the wire is above 10 mOhms, it is out, check at the EIB pin.
 - If many wires are not going down in impedance, switch out your gold to new fresh gold (or try to mix the solution first)
 - DO NOT DESCEND DRIVE SO FAR THAT THE MOUTH OF THE GUIDE CANNULA IS DIPPED INTO THE GOLD SOLUTION
 - If any wires are now above 1MOhms, they will need to be recut or replaced;  any wires which are now below 100kOhms could be ‘reverse-plated’ or cut.  
