@@ -11,7 +11,7 @@ Questions, comments? Post an [issue](https://github.com/elduvelle/ephys_tutorial
 ------------
 
 ## Starting notes
-- This is for 12 microns diameter Nichrome wire. Larger diameter wire of different material might be easier to plate, although this protocol should still work.
+- This is for 12 microns diameter Nichrome wire. Larger diameter wire of different material might be easier to plate, although this protocol should still work. Check [this tutorial](https://github.com/elduvelle/ephys_tutorials/blob/main/9_gold_plating_PltIr_17um.md) for larger wire.  
 - Before plating: get gold out of fridge (note: it doesn't need to be in the fridge), set up autoplater on a computer, and make sure you have wells, saline solution, and distilled water.
 - If you're installing NanoZ for the first time… install from the [WhiteMatter LLC website](https://white-matter.com/products/nanoz/), and drop the ‘electrodes.ini’ file in the appropriate folder, e.g. C:\Users\{your username}\AppData\Local\nanoZ
 - VERY IMPORTANT: when dipping tetrodes into solution DO NOT dip them so deep as to dip the cannula in, this will cause gold to flow UP the cannulae, dry, and stick your tetrodes to the cannula.
