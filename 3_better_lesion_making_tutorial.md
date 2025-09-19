@@ -16,17 +16,25 @@
 - leave the entire skull in PFA for 24h with the tetrodes still inside the brain
 - after additional 24h, pull tetrodes up and remove brain
 
-This is how it _should_ look like:
+#### This is how it _should_ look like:
 ![image](https://github.com/elduvelle/ephys_tutorials/assets/64431932/5ad0c8d6-aa8b-4e03-85a3-888354c439b5)
 
 Source:
 [Gillespie et al., 2021](https://www.sciencedirect.com/science/article/pii/S0896627321005730?via%3Dihub)  
 lesions method actually described in: [Sosa et al., 2020](https://www.sciencedirect.com/science/article/pii/S0896627319310086)
 
-This is how it looks like when I do it on 13 um Nichrome wire (20 uA instead of 30 uA, tried 2s of stimulation for some tetrodes, but couldn't see those lesions at all, so definitely use 3s):
+#### This is how it looks like when I do it:  
+Drive parameters: 13 um Nichrome wire   
+Lesion parameters: 20 uA instead of 30 uA, tried 2s of stimulation for some tetrodes, but couldn't see those lesions at all, so definitely use 3s:
 ![IMG_9980](https://github.com/elduvelle/ephys_tutorials/assets/64431932/9bb1da25-2d38-4564-bc50-1f83e5c837fd)
 ![IMG_9981](https://github.com/elduvelle/ephys_tutorials/assets/64431932/eb7e6057-3491-4556-a5d9-dbd6b39ebfab)
 
+
+#### NEW! Example lesion in a **mouse** (credits: Mimi Janssen)
+Drive parameters: 25 microns nichrome wire, bundle of 8 tetrodes but staggered to obtain 4 stereotrodes  
+Lesion parameters: 12 uA of positive current for 7s on both channels of each stereotrode  
+Additional parameters: lesions were made 1 day before perfusion as per this tutorial, but the brain was extracted immediately after perfusion.  
+![IMG_8179 (1)](https://github.com/user-attachments/assets/bb9dea59-4668-4d8f-80d7-df45406be113)
 
 ### 2. alternative device to make lesions
 
