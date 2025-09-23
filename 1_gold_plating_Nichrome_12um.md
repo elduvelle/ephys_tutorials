@@ -46,9 +46,20 @@ Questions, comments? Post an [issue](https://github.com/elduvelle/ephys_tutorial
    3. Do this two to three times, the second time match to 240 kOhms, and the third time match to 230 kOhms  
 Note: Brad Pfeiffer says that he sometimes does this for about a week until the impedances remain at low values!
 
-## Troubleshooting:
+## Gold-plating troubleshooting:
 - wires that are around 500 kOhms may have “bubbles” on them and you can try to lift the drive out of the solution and place them back.  You can also try to “burn off” / clean that wire at +1 µA again, but it will return to low (or is it high?) impedance rapidly so be patient the second time around.
 - If the wire is above 10 mOhms, it is out, check at the EIB pin.
 - If many wires are not going down in impedance, switch out your gold to new fresh gold (or try to mix the solution first)
 - DO NOT DESCEND DRIVE SO FAR THAT THE MOUTH OF THE GUIDE CANNULA IS DIPPED INTO THE GOLD SOLUTION
-- If any wires are now above 1MOhms, they will need to be recut or replaced;  any wires which are now below 100kOhms could be ‘reverse-plated’ or cut.  
+- If any wires are now above 1MOhms, they will need to be recut or replaced;  any wires which are now below 100kOhms could be ‘reverse-plated’ or cut.
+
+## More general Nanoz troubleshooting:
+Listing here ways to 'debug' the Nanoz, if not acting as expected:
+1. Check the ground wire connection (connects the nanoz to the plating / testing solution)
+2. Test with different drives
+3. Test different adaptors
+4. Make sure that adaptors are very well plugged into the nanoz, if needed clean the plug
+5. Make sure you have the right "electrode definition" and you are plugged in the right channels
+6. test with a simple resistor that you already know the resistance of (there should even be a calibration kit in the nanoz)
+7. change your nanoz USB cable
+8. test with /without your laptop plugged in mains
